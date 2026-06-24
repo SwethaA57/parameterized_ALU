@@ -58,4 +58,4 @@ The design was verified using a Verilog testbench and waveform analysis using GT
 
 ## Simulation Waveform
 
-![ALU Waveform](waveform.png)
+![ALU Waveform](IMAGES/waveform.png)
