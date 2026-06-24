@@ -1,0 +1,95 @@
+$date
+	Wed Jun 24 17:56:03 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	100ps
+$end
+$scope module parameterized_alu_tb $end
+$var wire 1 ! zero $end
+$var wire 8 " result [7:0] $end
+$var wire 1 # overflow $end
+$var wire 1 $ negative $end
+$var wire 1 % carry $end
+$var parameter 32 & WIDTH $end
+$var reg 8 ' A [7:0] $end
+$var reg 8 ( B [7:0] $end
+$var reg 3 ) opcode [2:0] $end
+$scope module DUT $end
+$var wire 8 * A [7:0] $end
+$var wire 8 + B [7:0] $end
+$var wire 3 , opcode [2:0] $end
+$var parameter 32 - WIDTH $end
+$var reg 1 % carry $end
+$var reg 1 $ negative $end
+$var reg 1 # overflow $end
+$var reg 8 . result [7:0] $end
+$var reg 1 ! zero $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1000 -
+b1000 &
+$end
+#0
+$dumpvars
+b10000001 .
+b0 ,
+b1 +
+b10000000 *
+b0 )
+b1 (
+b10000000 '
+0%
+1$
+0#
+b10000001 "
+0!
+$end
+#100
+0$
+1#
+b1111111 "
+b1111111 .
+b1 )
+b1 ,
+#200
+1!
+b0 "
+b0 .
+0#
+b10 )
+b10 ,
+#300
+1$
+0!
+b10000001 "
+b10000001 .
+b11 )
+b11 ,
+#400
+b100 )
+b100 ,
+#500
+0$
+1!
+b0 "
+b0 .
+b101 )
+b101 ,
+#600
+0!
+b1000000 "
+b1000000 .
+b110 )
+b110 ,
+#700
+b1 "
+b1 .
+b111 )
+b111 ,
+#800
