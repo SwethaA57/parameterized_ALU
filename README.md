@@ -55,3 +55,7 @@ The ALU generates:
 ## Verification
 
 The design was verified using a Verilog testbench and waveform analysis using GTKWave.
+
+## Simulation Waveform
+
+![ALU Waveform](waveform.png)
